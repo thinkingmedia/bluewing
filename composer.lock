@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef2254b87b67630e4f4e3b4655ece177",
+    "hash": "3f7daf90dab5a2d84961b460e01d61bb",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -470,6 +470,50 @@
             "time": "2012-12-21 11:40:51"
         },
         {
+            "name": "react/promise",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "365fcee430dfa4ace1fbc75737ca60ceea7eeeef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/365fcee430dfa4ace1fbc75737ca60ceea7eeeef",
+                "reference": "365fcee430dfa4ace1fbc75737ca60ceea7eeeef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@googlemail.com"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "time": "2014-12-30 13:32:42"
+        },
+        {
             "name": "robmorgan/phinx",
             "version": "v0.4.3",
             "source": {
@@ -691,6 +735,67 @@
             "time": "2015-05-08 00:09:07"
         },
         {
+            "name": "symfony/property-access",
+            "version": "v2.6.7",
+            "target-dir": "Symfony/Component/PropertyAccess",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/PropertyAccess.git",
+                "reference": "1a913a7c2f2441e37485c79e658a261350546351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/PropertyAccess/zipball/1a913a7c2f2441e37485c79e658a261350546351",
+                "reference": "1a913a7c2f2441e37485c79e658a261350546351",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\PropertyAccess\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony PropertyAccess Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "access",
+                "array",
+                "extraction",
+                "index",
+                "injection",
+                "object",
+                "property",
+                "property path",
+                "reflection"
+            ],
+            "time": "2015-05-02 15:18:45"
+        },
+        {
             "name": "symfony/yaml",
             "version": "v2.6.7",
             "target-dir": "Symfony/Component/Yaml",
@@ -739,6 +844,95 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2015-05-02 15:18:45"
+        },
+        {
+            "name": "thinkingmedia/cakephp-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinkingmedia/cakephp-installer.git",
+                "reference": "d55058e00c8c60f8ca82779ecd1413462751af74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinkingmedia/cakephp-installer/zipball/d55058e00c8c60f8ca82779ecd1413462751af74",
+                "reference": "d55058e00c8c60f8ca82779ecd1413462751af74",
+                "shasum": ""
+            },
+            "require": {
+                "react/promise": "~2.2",
+                "thinkingmedia/underscore": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Installer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "thinkingmedia",
+                    "email": "mathew@thinkingmedia.ca"
+                }
+            ],
+            "description": "CakePHP 3.0 console classes for installing and configuring an application.",
+            "time": "2015-04-17 00:18:07"
+        },
+        {
+            "name": "thinkingmedia/underscore",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinkingmedia/underscore.git",
+                "reference": "74b0b05cbc2f4abe78c9feeffdc71510f0f9437c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinkingmedia/underscore/zipball/74b0b05cbc2f4abe78c9feeffdc71510f0f9437c",
+                "reference": "74b0b05cbc2f4abe78c9feeffdc71510f0f9437c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "symfony/property-access": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Underscore\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ramon Kleiss",
+                    "email": "ramonkleiss@gmail.com",
+                    "homepage": "http://ramonkleiss.nl",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Mathew Foscarini",
+                    "email": "support@thinkingmedia.ca",
+                    "homepage": "http://www.thinkingmedia.ca",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Underscore is a PHP library that provides useful helpers when working with arrays and collections.",
+            "homepage": "https://github.com/thinkingmedia/underscore",
+            "keywords": [
+                "array",
+                "collections",
+                "toolkit",
+                "underscore"
+            ],
+            "time": "2015-03-19 19:19:53"
         }
     ],
     "packages-dev": [
@@ -1087,6 +1281,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "thinkingmedia/cakephp-installer": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
